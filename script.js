@@ -25,3 +25,12 @@ const factorial = (int) => {
 };
 
 //console.log(factorial(5)); // return 120
+
+//Step 4
+
+const fibonnacci = (nb) => {
+  if (nb < 2) return 1;
+  return fibonnacci(nb - 2) + fibonnacci(nb - 1);
+};
+
+//console.log(fibonnacci(8)); // 34
